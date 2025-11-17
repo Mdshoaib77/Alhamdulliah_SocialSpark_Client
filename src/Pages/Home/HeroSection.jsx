@@ -34,23 +34,12 @@ const HeroSection = () => {
             Join hands with like-minded individuals to create, participate, and track
             local social service events in your area. Together, we can make a difference!
           </motion.p>
-
-          {/* Animated Button */}
-          {/* <motion.a
-            href="#events"
+          <motion.a
+            href="/all-issues"
             className="bg-primary text-white py-3 px-8 rounded-full text-xl hover:bg-primary-dark transition duration-300"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
-          >
-            Upcoming Events
-          </motion.a> */}
-          <motion.a
-  href="/all-issues"
-  className="bg-primary text-white py-3 px-8 rounded-full text-xl hover:bg-primary-dark transition duration-300"
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ duration: 1, delay: 1 }}
 >
   Upcoming Events
 </motion.a>
