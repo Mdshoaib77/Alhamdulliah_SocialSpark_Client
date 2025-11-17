@@ -1,6 +1,8 @@
 # Social Spark - Community-Driven Event Management Platform
 
 Welcome to **Social Spark**, a platform designed to help communities organize and track social service events such as road cleanups, tree plantation drives, and more. Users can create, join, and track social events in their local area.
+
+
 Built with React, Tailwind CSS, Firebase, Express.js, and MongoDB, it offers secure authentication, dynamic issue tracking, contribution management, and a clean, responsive UI for a smooth user experience.
 
 ## Live Link
@@ -71,6 +73,10 @@ Accessibility-focused components
 📧 Contact
 
 👤 Author: Md Shoaib
+
+
 📍 Location: Bogura, Bangladesh
+
+
 📩 Email: mdshoaibfullstack@gmail.com
 
