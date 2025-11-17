@@ -37,7 +37,7 @@ const Navbar = () => {
         }
       >
         <Home size={18} />
-        Home
+        Hom
       </NavLink>
       <NavLink to="/all-issues" className={linkClasses}>
         <Calendar size={18} />
