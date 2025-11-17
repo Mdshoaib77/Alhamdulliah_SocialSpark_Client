@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.issues-card img {
+  @apply transition-all duration-300;
+}
+
+.issues-card:hover img {
+  @apply scale-110;
+}
