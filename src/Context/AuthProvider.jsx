@@ -66,23 +66,24 @@ const AuthProvider = ({ children }) => {
   useEffect(() => {
     setLoading(true);
 
-    const fatchData = async () => {
+    const fetchData = async () => {
       await new Promise((res) => setTimeout(res, 1000));
       axios("https://b12-assignment-10-server.vercel.app/issues")
         .then((data) => setData(data.data))
         .catch((error) => setError(error.message))
         .finally(() => setLoading(false));
     };
-    fatchData();
+    fetchData();
   }, [user]);
 
   useEffect(() => {
     setLoading(true);
 
-    const fatchData = async () => {
+    const fetchData = async () => {
       await new Promise((res) => setTimeout(res, 1000));
+
       axios(
-        `https://b12-assignment-10-server.vercel.app/contribution?email=${
+        `https://alhamdulliah-social-spark-server.vercel.app/contribution?email=${
           user?.email || user?.reloadUserInfo?.email
         }`,
         {
@@ -95,7 +96,7 @@ const AuthProvider = ({ children }) => {
         .catch((error) => setError(error.message))
         .finally(() => setLoading(false));
     };
-    fatchData();
+    fetchData();
   }, [user]);
 
   const authInfo = {
