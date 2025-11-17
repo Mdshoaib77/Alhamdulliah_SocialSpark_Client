@@ -9,7 +9,7 @@ const HeroSection = () => {
         className="banner bg-cover bg-center relative text-white"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1745573673583-a51f665ae48e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1334')",
+            "url('https://media.istockphoto.com/id/2231207485/photo/group-of-men-volunteers-picking-up-litter-in-city-park.jpg?s=612x612&w=0&k=20&c=nyPKcW8Y_ki6XMdIjwpJL_puXgfzLZNkUB7h0vhGtCc=')",
         }}
       >
         <div className="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
@@ -21,7 +21,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            Empowering Communities Through Social Service Events
+            Empowering Communities Through <br /> Social Service Events
           </motion.h1>
 
           {/* Animated Description */}
