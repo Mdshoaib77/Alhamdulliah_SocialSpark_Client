@@ -79,7 +79,7 @@ const SignUp = () => {
       <div className="w-full flex flex-col items-center justify-center">
         <form className="md:w-96 w-80 flex flex-col " onSubmit={handelSignUp}>
           <div className="flex flex-col items-center justify-center">
-            <h2 className="text-4xl  font-medium text-green-500">Sign up</h2>
+            <h2 className="text-4xl  font-medium text-purple-800">Sign up</h2>
             <p className="text-sm text-gray-500/90 mt-3">
               Welcome! Please Sign up to continue
             </p>
@@ -87,7 +87,7 @@ const SignUp = () => {
           <button
             onClick={handelGoogleSignup}
             type="button"
-            className="w-full mt-8 bg-green-500/10 flex items-center justify-center h-12 rounded-full">
+            className="w-full mt-8 bg-purple-500/10 flex items-center justify-center h-12 rounded-full">
             <img
               src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/login/googleLogo.svg"
               alt="googleLogo"
@@ -102,8 +102,8 @@ const SignUp = () => {
             <div className="w-full h-px bg-gray-300/90"></div>
           </div>
 
-          <div className="flex items-center w-full bg-transparent border border-green-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2 mb-6">
-            <AtSign color="#22c55e" size={18} />
+          <div className="flex items-center w-full bg-transparent border border-purple-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2 mb-6">
+            <AtSign color="#2#6b46c1" size={18} />
             <input
               type="text"
               placeholder="Your Name"
@@ -112,8 +112,8 @@ const SignUp = () => {
               required
             />
           </div>
-          <div className="flex items-center w-full bg-transparent border border-green-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2 mb-6">
-            <Image color="#22c55e" size={18} />
+          <div className="flex items-center w-full bg-transparent border border-purple-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2 mb-6">
+            <Image color="#6b46c1" size={18} />
             <input
               type="text"
               name="photo"
@@ -122,7 +122,7 @@ const SignUp = () => {
               required
             />
           </div>
-          <div className="flex items-center w-full bg-transparent border border-green-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2">
+          <div className="flex items-center w-full bg-transparent border border-purple-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2">
             <svg
               width="16"
               height="11"
@@ -133,7 +133,7 @@ const SignUp = () => {
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M0 .55.571 0H15.43l.57.55v9.9l-.571.55H.57L0 10.45zm1.143 1.138V9.9h13.714V1.69l-6.503 4.8h-.697zM13.749 1.1H2.25L8 5.356z"
-                fill="#22c55e"
+                fill="#6b46c1"
               />
             </svg>
             <input
@@ -145,7 +145,7 @@ const SignUp = () => {
             />
           </div>
 
-          <div className="flex items-center mt-6 w-full bg-transparent border border-green-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2">
+          <div className="flex items-center mt-6 w-full bg-transparent border border-purple-500/60 h-12 rounded-full overflow-hidden pl-6 gap-2">
             <svg
               width="13"
               height="17"
@@ -154,7 +154,7 @@ const SignUp = () => {
               xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M13 8.5c0-.938-.729-1.7-1.625-1.7h-.812V4.25C10.563 1.907 8.74 0 6.5 0S2.438 1.907 2.438 4.25V6.8h-.813C.729 6.8 0 7.562 0 8.5v6.8c0 .938.729 1.7 1.625 1.7h9.75c.896 0 1.625-.762 1.625-1.7zM4.063 4.25c0-1.406 1.093-2.55 2.437-2.55s2.438 1.144 2.438 2.55V6.8H4.061z"
-                fill="#22c55e"
+                fill="#6b46c1"
               />
             </svg>
             <input
@@ -172,11 +172,11 @@ const SignUp = () => {
               className="text-gray-500 mr-3">
               {show ? (
                 <FaRegEyeSlash
-                  color="#22c55e
+                  color="#6b46c1
 "
                 />
               ) : (
-                <FaRegEye color="#22c55e" />
+                <FaRegEye color="#6b46c1" />
               )}
             </button>
           </div>
@@ -184,21 +184,21 @@ const SignUp = () => {
           <div className="mt-2 space-y-1 ml-2">
             <p
               className={`text-sm flex items-center gap-1 ${
-                hasUppercase ? "text-green-500" : "text-gray-500"
+                hasUppercase ? "text-purple-800" : "text-gray-500"
               }`}>
               {hasUppercase ? <CheckCircle size={16} /> : <XCircle size={16} />}
               Must have an Uppercase letter
             </p>
             <p
               className={`text-sm flex items-center gap-1 ${
-                hasLowercase ? "text-green-500" : "text-gray-500"
+                hasLowercase ? "text-purple-800" : "text-gray-500"
               }`}>
               {hasLowercase ? <CheckCircle size={16} /> : <XCircle size={16} />}
               Must have a Lowercase letter
             </p>
             <p
               className={`text-sm flex items-center gap-1 ${
-                hasLength ? "text-green-500" : "text-gray-500"
+                hasLength ? "text-purple-800" : "text-gray-500"
               }`}>
               {hasLength ? <CheckCircle size={16} /> : <XCircle size={16} />}
               At least 6 characters long
@@ -207,14 +207,14 @@ const SignUp = () => {
 
           <button
             type="submit"
-            className="mt-2 w-full h-11 rounded-full text-white bg-green-500 hover:opacity-90 transition-opacity">
+            className="mt-2 w-full h-11 rounded-full text-white bg-purple-800 hover:opacity-90 transition-opacity">
             Sign up
           </button>
           <p className="text-gray-500/90 text-sm mt-4 flex items-center justify-center gap-1">
             Alrady Have an account?{" "}
             <Link
               to="/login"
-              className="text-green-500 hover:underline"
+              className="text-purple-800 hover:underline"
               href="#">
               Login
             </Link>

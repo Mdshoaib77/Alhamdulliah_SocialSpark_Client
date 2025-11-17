@@ -72,7 +72,7 @@ const Login = () => {
           <button
             onClick={handelGoogleSignin}
             type="button"
-            className="w-full mt-8 bg-green-500/10 flex items-center justify-center h-12 rounded-full"
+            className="w-full mt-8 bg-purple-500/10 flex items-center justify-center h-12 rounded-full"
           >
             <img
               src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/login/googleLogo.svg"
