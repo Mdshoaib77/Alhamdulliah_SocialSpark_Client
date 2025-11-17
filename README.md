@@ -61,22 +61,21 @@ This platform allows users to:
 - **Responsive Design**: Fully responsive across desktop, tablet, and mobile.
 - **Animations**: Smooth page transitions and UI animations powered by Framer Motion.
 
-🎨 UI & Theme
-Clean and modern UI designed with Tailwind CSS
 
-Responsive design for desktop, tablet, and mobile
+## 🎨 **UI & Theme**
 
-Optional dark/light theme toggle
+- **Clean and modern UI** designed with **Tailwind CSS**.
+- **Responsive design** for **desktop**, **tablet**, and **mobile**.
+- **Optional dark/light theme toggle** to switch between themes based on user preference.
+- **Accessibility-focused components** to ensure a smooth and inclusive user experience.
 
-Accessibility-focused components
+---
 
-📧 Contact
+## 📧 **Contact**
 
-👤 Author: Md Shoaib
+- 👤 **Author**: **Md Shoaib**
+- 📍 **Location**: **Bogura, Bangladesh**
+- 📩 **Email**: [mdshoaibfullstack@gmail.com](mailtomdshoaibfullstack@gmail.com)
+- 🌐 **Live Site**: [**Social Spark**](https://alhamdulliah-social-spark-platform.netlify.app/)
 
-
-📍 Location: Bogura, Bangladesh
-
-
-📩 Email: mdshoaibfullstack@gmail.com
 
